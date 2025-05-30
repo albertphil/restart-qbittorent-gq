@@ -14,13 +14,13 @@ ENV QBITTORRENT_CONTAINER_NAME=qbittorrent
 ENV GLUETUN_CONTAINER_NAME=gluetun
 
 LABEL \
-    org.opencontainers.image.authors="jakubkopys95@gmail.com" \
+    org.opencontainers.image.authors="topisol@pm.me" \
     org.opencontainers.image.version=$VERSION \
     org.opencontainers.image.created=$CREATED \
     org.opencontainers.image.revision=$COMMIT \
-    org.opencontainers.image.url="https://github.com/JakubKopys/restart-qbittorent" \
-    org.opencontainers.image.documentation="https://github.com/JakubKopys/restart-qbittorent/blob/main/README.md" \
-    org.opencontainers.image.source="https://github.com/JakubKopys/restart-qbittorent" \
+    org.opencontainers.image.url="https://github.com/albertphil/restart-qbittorent-gq" \
+    org.opencontainers.image.documentation="https://github.com/albertphil/restart-qbittorent-gq/blob/main/README.md" \
+    org.opencontainers.image.source="https://github.com/albertphil/restart-qbittorent-gq" \
     org.opencontainers.image.title="restart-qbittorent" \
     org.opencontainers.image.description="Restart qBittorrent after Gluetun VPN reconnect"
 

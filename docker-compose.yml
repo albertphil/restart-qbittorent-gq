@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   restart-qbittorrent:
-    image: jakub95/restart-qbittorrent:latest
+    image: topisol/restart-qbittorrent:latest
     container_name: restart-qbittorrent
     restart: unless-stopped
     network_mode: none # it doesn't need internet connectivity, it's more secure this way
